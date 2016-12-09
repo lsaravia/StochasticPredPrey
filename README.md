@@ -3,10 +3,9 @@
 
 * The model was formulated in [1]. I added stochastic process error in logaritmic scale. These are the equations: 
 
-
-![](http://latex.codecogs.com/gif.latex?\\frac{dA}{dt}=A P_m tanh(\\frac{\\alpha I_m}{P_m})- R A - (c - b Z_m)- A H q)   
-
-$$\frac{dH}{dt}=-\mu H + q H A e_{\tau}$$   
+    ![](http://latex.codecogs.com/gif.latex?\\frac{dA}{dt}=A P_m tanh(\\frac{\\alpha I_m}{P_m})- R A - (c - b Z_m)- A H q)   
+    
+    ![](http://latex.codecogs.com/gif.latex?\\frac{dH}{dt}=-\\mu H + q H A e_{\\tau}$$)   
 
 * The parameters with units are: 
 
