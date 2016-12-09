@@ -35,13 +35,13 @@
 
 * The model was simulated with an integration step of $h=0.01$, and the process error was added as follows, see [2]:
 
-$$log[A(t+h)]=log[A(t) +h f(A)] + Z$$
+    ![](http://latex.codecogs.com/gif.latex?log[A(t+h)]=log[A(t) +h f(A)] + Z)
 
 * where $Z$ is a normal random variable with mean cero and standar deviation $SD$, then fluctuations have a lognormal distribution:
 
-$$A(t+h)=[A(t) +h f(A) ] e^Z$$
+    ![](http://latex.codecogs.com/gif.latex?A(t+h)=[A(t) +h f(A) ] e^Z)
     
-$$H(t+h)=[H(t) +h f(H) ] e^Z$$
+    ![](http://latex.codecogs.com/gif.latex?H(t+h)=[H(t) +h f(H) ] e^Z)
 
 
 * You could find the application working at <https://phyzoo.shinyapps.io/ModelApp/>
